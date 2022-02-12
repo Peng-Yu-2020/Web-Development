@@ -1,0 +1,29 @@
+/*******************************Tag Selector*************************/
+
+h1 {
+
+  font-size: 100px;
+  color: red;
+}
+
+
+/*
+img {
+  background-color: blue;
+}
+*/
+
+/*************************************CLASS SELECTOR*****************************/
+.bacon {
+  background-color: red;
+}
+.broccoli {
+  background-color: green;
+}
+.cicular{
+  border-radius: 100%;
+}
+
+#heading{
+  color:blue;
+}

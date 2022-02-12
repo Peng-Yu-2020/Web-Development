@@ -1,0 +1,178 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  /* font-family: Montserrat-black; */
+  font-family: "Montserrat";
+}
+
+p {
+  color: grey;
+}
+
+
+/* heading */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index:1;
+}
+
+
+/* navbar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat";
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* Testimonials */
+#testimonials{
+  color: #fff;
+  background-color: #ff8172;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+
+#press {
+  background-color: #ff8172;
+  padding-bottom: 3%;
+}
+
+.pess-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* price */
+#pricing{
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+
+  }
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+
+  /* <!-- Call to Action --> */
+#cta{
+  background-color: #ff4c68;
+  padding: 5% 10%;
+
+}
+
+#footer {
+  padding-bottom: 1.5rem;
+}
+
+.cta-description{
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
